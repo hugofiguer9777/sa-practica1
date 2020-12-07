@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '''bash -c "ls -l"'''
+                sh '''bash -c "pwd"'''
             }
         }
     }
