@@ -7,8 +7,8 @@ test('Test1', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-// test('Falla', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/falla forzada/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+ test('Falla', () => {
+   render(<App />);
+   const linkElement = screen.getByText(/falla forzada/i);
+   expect(linkElement).toBeInTheDocument();
+ });
