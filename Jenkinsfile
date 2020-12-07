@@ -15,6 +15,11 @@ pipeline {
         }
         stage('Test') {
             steps {
+                sh '''bash -c "npm test"'''
+            }
+        }
+        stage('Produccion') {
+            steps {
                 sh '''bash -c "npm start"'''
             }
         }

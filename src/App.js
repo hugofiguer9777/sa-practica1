@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './usac.png';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Practica #1 SA - Diciembre 2020
         </p>
         <a
           className="App-link"
