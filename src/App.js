@@ -10,7 +10,7 @@ function App() {
           Practica #1 SA - Diciembre 2020
         </p>
         <p>
-          PRUEBA FALLIDA
+          PRUEBA EXITOSA
         </p>
       </header>
     </div>
