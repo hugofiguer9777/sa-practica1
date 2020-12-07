@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '''bash -c "node --version"'''
+                sh '''bash -c "npm start"'''
             }
         }
     }
