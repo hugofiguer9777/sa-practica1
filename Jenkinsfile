@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Produccion') {
             steps {
-                sh '''bash -c "npm start"'''
+                sh '''bash -c "serve -s build -l 3000"'''
             }
         }
     }
