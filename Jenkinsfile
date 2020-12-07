@@ -15,7 +15,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '''bash -c "npm test --a"'''
+                sh '''bash -c "npm run build"'''
+                sh '''bash -c "CI=true npm test"'''
             }
         }
         stage('Produccion') {
