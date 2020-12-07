@@ -9,13 +9,13 @@ pipeline {
         stage('InstallRequirements') {
             steps {
                 sh '''
-                    bash -c "npm --version"
+                    bash -c "npm i"
                 '''
             }
         }
         stage('Test') {
             steps {
-                sh '''bash -c "pwd"'''
+                sh '''bash -c "node --version"'''
             }
         }
     }
