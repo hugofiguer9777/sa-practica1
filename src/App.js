@@ -10,7 +10,7 @@ function App() {
           Practica #1 SA - Diciembre 2020
         </p>
         <p>
-          Hugo René Figueroa Castillo - 20103840
+          FALLA SIN DESPLEGAR
         </p>
       </header>
     </div>
