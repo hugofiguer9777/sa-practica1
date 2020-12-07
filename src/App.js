@@ -9,14 +9,9 @@ function App() {
         <p>
           Practica #1 SA - Diciembre 2020
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Prueba React
-        </a>
+        <p>
+          Hugo René Figueroa Castillo - 20103840
+        </p>
       </header>
     </div>
   );
