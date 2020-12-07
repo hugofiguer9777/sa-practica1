@@ -21,7 +21,9 @@ pipeline {
         }
         stage('Produccion') {
             steps {
-                sh '''bash -c "serve -s build -l 3000"'''
+                sh '''bash -c "sudo cp -r build /var/www/"'''
+                sh '''bash -c "sudo rm -R /var/www/html"'''
+                sh '''bash -c "sudo mv /var/www/build/ /var/www/html"'''
             }
         }
     }
