@@ -10,7 +10,7 @@ function App() {
           Practica #2 SA - Diciembre 2020
         </p>
         <p>
-          PRUEBA JENKINS
+          Hugo René Figueroa Castillo - 201503840
         </p>
       </header>
     </div>
