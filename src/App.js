@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Practica #1 SA - Diciembre 2020
+          Practica #2 SA - Diciembre 2020
         </p>
         <p>
           PRUEBA JENKINS
