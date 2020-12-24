@@ -11,7 +11,7 @@ function App() {
         </p>
         <p>
           Hugo René Figueroa Castillo - 201503840
-          Prueba Chef 2020
+          Prueba Chef SA 2020
         </p>
       </header>
     </div>
