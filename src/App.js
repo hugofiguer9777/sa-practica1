@@ -11,6 +11,7 @@ function App() {
         </p>
         <p>
           Hugo René Figueroa Castillo - 201503840
+          Prueba
         </p>
       </header>
     </div>
