@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Practica #3 S.A. - Diciembre 2020
+          Practica #4 S.A. - Diciembre 2020
         </p>
         <p>
           Hugo René Figueroa Castillo - 201503840
